@@ -64,9 +64,9 @@ let resultString = (str) => {
   result.classList.add("fade");
   if (str === "Human") {
     restart.classList.add("visible");
-    result.innerText = "You won!";
+    result.innerText = "You won! 😄";
   } else if (str === "Computer") {
-    result.innerText = "Sorry but your computer have won, try again";
+    result.innerText = "Sorry but your computer have won 🤷 Try again!";
     restart.classList.add("visible");
   }
   return true;
